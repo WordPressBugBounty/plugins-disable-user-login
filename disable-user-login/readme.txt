@@ -5,8 +5,8 @@ Tags: users, user, login, account, disable
 Requires at least: 6.2
 Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 2.0.0
-Version: 2.0.0
+Stable tag: 2.1.0
+Version: 2.1.0
 License: GPLv3
 
 Provides the ability to disable user accounts and prevent them from logging in.
@@ -25,6 +25,18 @@ This can be useful in a few situations.
 * You have a client who has an unpaid invoice.
 
 **[This plugin is on GitHub!](https://github.com/saintsystems/disable-user-login/)** Pull requests are welcome. If possible please report issues through Github.
+
+= Upgrade to Pro =
+
+[Disable User Login Pro](https://www.saintsystems.com/products/disable-user-login-pro/) adds powerful bulk management tools:
+
+- **CSV Export** — download all users with their current enabled/disabled status
+- **CSV Import** — upload a CSV to bulk enable or disable hundreds of user accounts at once
+- **Workflow** — export users, update the "Enabled" column in a spreadsheet, and re-import to apply changes in bulk
+
+Perfect for membership sites, nonprofits managing volunteers, agencies onboarding/offboarding clients, and universities managing student accounts.
+
+[Learn more about Disable User Login Pro](https://www.saintsystems.com/products/disable-user-login-pro/)
 
 == Installation ==
 
@@ -45,12 +57,24 @@ Yes! You can customize the disabled user message in two ways:
 1. **Admin Panel (Easy)**: Go to Settings > Disable User Login in your WordPress admin to customize the message via a user-friendly interface.
 2. **Filter Hook (Advanced)**: Use the `disable_user_login.disabled_message` filter in your theme or plugin code for programmatic customization.
 
+= Support =
+
+Please visit the [Disable User Login support forum on WordPress.org](https://wordpress.org/support/plugin/disable-user-login) for basic support and help from other users. Since this is a free plugin, we respond to these as we have time.
+
+Priority support is available for [Disable User Login Pro](https://www.saintsystems.com/products/disable-user-login-pro/) customers.
+
 == Screenshots ==
 
 1. User profile setting available to administrators.
 2. Message when a disabled user tries to login.
+3. Disable User Login Pro — Export users to CSV with enabled/disabled status.
+4. Disable User Login Pro — Import CSV to bulk enable or disable users.
 
 == Changelog ==
+
+#### 2.1.0 - Apr 2, 2026
+- Feature: add pro upsell on plugin row, settings page, and readme
+- Feature: add tabbed settings page with hooks for pro plugin
 
 #### 2.0.0 - Apr 2, 2026
 - Minimum requirements raised from PHP 5.6 to 7.4 and WordPress 4.7 to 6.2.
