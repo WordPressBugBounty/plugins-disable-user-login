@@ -5,8 +5,8 @@ Tags: users, user, login, account, disable
 Requires at least: 6.2
 Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 2.1.2
-Version: 2.1.2
+Stable tag: 2.1.4
+Version: 2.1.4
 License: GPLv3
 
 Provides the ability to disable user accounts and prevent them from logging in.
@@ -66,12 +66,20 @@ Priority support is available for [Disable User Login Pro](https://www.saintsyst
 
 == Screenshots ==
 
-1. User profile setting available to administrators.
-2. Message when a disabled user tries to login.
-3. Disable User Login Pro — Export users to CSV with enabled/disabled status.
-4. Disable User Login Pro — Import CSV to bulk enable or disable users.
+1. Disable User Login Pro — Filterable "Disabled" and "Enabled" views on the Users screen with count badges and sortable column.
+2. Message shown to disabled users when they try to login.
+3. Disable User Login Pro — Export all users to CSV with enabled/disabled status.
+4. Disable User Login Pro — Import CSV to bulk enable or disable user accounts.
+5. Disable User Login Pro — Customizable email notifications for disable/enable events with merge tags.
+6. Disable User Login Pro — Audit log with timestamps, performer, reason, source, and CSV export.
 
 == Changelog ==
+
+#### 2.1.4 - Apr 3, 2026
+- Fix: remove icon.svg so WordPress.org uses animated GIF icons
+
+#### 2.1.3 - Apr 3, 2026
+- Fix: update plugin banner and icon assets
 
 #### 2.1.2 - Apr 2, 2026
 - Fix: widen Disabled column to prevent sort indicator wrapping
